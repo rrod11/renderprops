@@ -1,9 +1,12 @@
 import "./BaseStats.css";
-function BaseStats({ baseStats }) {
+function BaseStats({ baseStats, clicker }) {
   return (
     <div className="base-stats">
       <h1>BaseStats</h1>
       <table>
+        <button onClick={clicker} className="sp-stats">
+          Check Special Stats
+        </button>
         <tbody>
           <tr>
             <td>Hit Points</td>
