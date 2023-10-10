@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="main-wrapper background">
       <Showcase />
-      <BaseStats />
+      <BaseStats baseStats={baseStats} />
     </div>
   );
 }
